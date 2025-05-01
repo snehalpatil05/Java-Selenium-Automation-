@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestNG Parallel" verbose="1">
+	  
+	  <test name="TestforParallel" parallel = "classes" thread-count="4" preserve-order="true" >
+		<classes>
+	      <class name="MyTestNG.ParallelClassA" />
+	      <class name="MyTestNG.ParallelClassB" />
+	   </classes>
+	  </test>
+	 
+  
+</suite>
+
+
+
+

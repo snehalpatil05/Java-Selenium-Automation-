@@ -1,0 +1,8 @@
+package com.orangeHr.qa.testcases;
+
+public class DemoTest {
+	
+	public void testCase1() {
+		System.out.println("Maven Test");
+	}
+}

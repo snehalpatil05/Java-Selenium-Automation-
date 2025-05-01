@@ -1,0 +1,8 @@
+package oopsConcepts.inheritance.Example;
+
+public class BMW extends Car{
+	
+	public void color() {
+		System.out.println("Car: White, Black, Red");
+	}
+}

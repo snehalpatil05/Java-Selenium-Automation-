@@ -1,0 +1,28 @@
+package seleniumBasics;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TestRegisterForm {
+
+	public void method() {
+
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://demo.automationtesting.in/Register.html"); //to Navigate to URL
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Snehal");
+		driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("Patil");
+		driver.findElement(By.xpath("//textarea[@ng-model='Adress']")).sendKeys("Bengaluru, Karnataka - 560006");
+		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("snehal.patil@gmail.com");
+		driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("1122334455");
+		driver.findElement(By.xpath("//input[@value='FeMale']")).click();
+ 		driver.findElement(By.xpath("//input[@id='checkbox1']")).click();
+
+
+		//		driver.close();   // this will close the current window
+		driver.quit(); 	//will close all tabs at a time
+
+
+	}
+	
+}

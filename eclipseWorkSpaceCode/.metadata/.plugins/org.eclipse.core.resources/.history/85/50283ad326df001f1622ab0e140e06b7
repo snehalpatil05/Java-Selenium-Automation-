@@ -1,0 +1,30 @@
+package assignments;
+
+public class IfElseAssignment {
+
+	public static void main(String[] args) {
+		// if age > 18 print eligible for voting else print eligible for voting
+		
+		int age = 18;
+		
+	if(age>18) {
+		System.out.println("Eligible for voting");
+	}else {
+		System.out.println("Minor");
+	}
+	
+	
+	// if age > 17 print eligible for voting else print eligible for voting
+	int age1 = 17;
+	
+	if(age1>20) {
+		System.out.println("Eligible for voting");
+	}else {
+		System.out.println("Minor");
+	}
+	System.out.println("IfElse assignment class - completed");
+	}
+	
+	
+}
+

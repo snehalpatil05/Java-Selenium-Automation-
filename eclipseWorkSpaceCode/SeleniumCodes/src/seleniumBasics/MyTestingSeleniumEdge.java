@@ -1,0 +1,61 @@
+package seleniumBasics;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class MyTestingSeleniumEdge {
+	
+	@Test
+	public void method() {
+		
+		EdgeDriver driver = new EdgeDriver();
+		driver.get("https://demo.automationtesting.in/Register.html"); //to Navigate to URL
+		driver.manage().window().maximize();
+//		First Name
+		driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Snehal");
+		
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+//		Last Name
+		driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("Patil");
+		
+//		Address
+		driver.findElement(By.xpath("//textarea[@ng-model='Adress']")).sendKeys("Bengaluru, Karnataka - 560006");
+	
+
+//		Email Address: 
+		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("snehal.patil@gmail.com");
+
+//		Phone: 
+		driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("1122334455");
+
+//		Gender: 
+		driver.findElement(By.xpath("//input[@value='FeMale']")).click();
+
+//		Hobbies: 
+		driver.findElement(By.xpath("//input[@id='checkbox1']")).click();
+
+//		Password : 
+		driver.findElement(By.xpath("//input[@id='firstpassword']")).sendKeys("Admin123");
+
+//		Confirm Password: 
+		driver.findElement(By.xpath("//input[@id='secondpassword']")).sendKeys("Admin123");
+//
+//		Submit Button : 
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+
+//		Refresh Button : 
+		driver.findElement(By.xpath("//button[@type='button']")).click();
+
+//		driver.close();   // this will close the current window
+		driver.quit(); 	//will close all tabs at a time
+		
+	}
+}

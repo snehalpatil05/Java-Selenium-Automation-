@@ -1,0 +1,18 @@
+package myCollection;
+
+import java.util.HashMap;
+
+public class MyHashMap {
+
+	public static void main(String[] args) {
+		HashMap<Integer, String> map = new HashMap<Integer, String>();
+		
+		
+		
+	}
+
+}
+
+
+// Are duplicate values allowed in HashMap? ->
+// Is insertion order maintained in HashMap? ->

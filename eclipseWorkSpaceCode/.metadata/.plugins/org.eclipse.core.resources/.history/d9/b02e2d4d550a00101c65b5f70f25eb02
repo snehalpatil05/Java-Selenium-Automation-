@@ -1,0 +1,11 @@
+package myCollection;
+
+public class MyArrayList {
+	
+	public static void main(String[ args]) {
+		
+		String[] var = {"a", "b"}; //size is fixed
+		var[2] = "test";
+	}
+
+}

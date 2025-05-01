@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ohrm_b1&apos; to &apos;OHRM_b1&apos;" description="Rename resource &apos;ohrm_b1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ohrm_b1" name="OHRM_b1" stamp="1743520417224" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;OHRM_b1&apos; to &apos;OHRM_B1&apos;" description="Rename resource &apos;OHRM_b1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/OHRM_b1" name="OHRM_B1" stamp="1743520436695" updateReferences="true"/>
+</session>

@@ -1,0 +1,23 @@
+{
+
+   "loginWithValidCredentialUsingJsonFile" : {
+           "username":"Admin",
+           "password":"admin123",
+		   "assertionMsg":"Login Functionality Failed :"
+      },
+
+   "loginWithInValidCredentialUsingJsonFile":{
+        "username":"admin232",
+        "password":"admigndfd",
+        "invalidMsg":"Invalid credentials",
+		"assertionFailedMsg":"Invalid Credential message validation: "
+	 },
+	"VerifyAddUserFunctionality":{
+		"username":"Admin",
+		"password":"admin123",
+		"hint":"Admin Admin123",
+		"pwd": "123456Admin",
+		"confirmPwd":"123456Admin"
+	}
+
+}

@@ -1,0 +1,22 @@
+package assignments;
+
+public class ArrayAssignment2 {
+
+	public static void main(String[] args) {
+//Write a Java program that checks whether a given number exists in an array {10, 25, 30, 45, 50}.
+
+
+		int[] numbers = {10, 25, 30, 45, 50};
+		int givenNumber = 45;
+		
+		for(int i=0; i<numbers.length; i++) {
+			if(numbers[i]==givenNumber) {
+			System.out.println(givenNumber+" exists in the numbers array at the index number "+i);
+			return;
+			}
+		}		
+        System.out.println(givenNumber+" does not exist in the array.");
+        
+	}
+
+}

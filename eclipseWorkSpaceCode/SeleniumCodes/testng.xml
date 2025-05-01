@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Suite">
+  <test thread-count="3" parallel="classes" name="Test">
+    <classes>
+      <class name="wait.MyExplicitWait"/>
+      <class name="selectDropdown.SelectByIndex"/>
+      <class name="wait.MyImplicitWait"/>
+      <class name="seleniumBasics.TextValidation"/>
+      <class name="alertBox.AlertWithOkAndCancelButton"/>
+      <class name="seleniumBasics.CheckBoxValidation"/>
+      <class name="selectDropdown.SelectTheValue"/>
+      <class name="seleniumBasics.MyTestingSeleniumChrome"/>
+      <class name="seleniumBasics.MyTesting"/>
+      <class name="seleniumBasics.MyTestingSeleniumFireFox"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

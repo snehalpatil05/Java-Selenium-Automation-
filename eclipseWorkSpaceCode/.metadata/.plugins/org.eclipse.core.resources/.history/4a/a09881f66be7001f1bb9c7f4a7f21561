@@ -1,0 +1,10 @@
+package practiceAssignments;
+
+public class OddNumbersAndMultiplicationTable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

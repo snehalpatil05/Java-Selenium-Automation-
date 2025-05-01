@@ -1,0 +1,8 @@
+@BeforeSuite -> When we Tag method as before suite, that method runs before the exection of all the test methods
+@BeforeTest-> 
+@BeforeClass->
+@BeforeMethod->
+@AfterMethod ->
+@AfterClass ->
+@AfterTest->
+@AfterSuite ->

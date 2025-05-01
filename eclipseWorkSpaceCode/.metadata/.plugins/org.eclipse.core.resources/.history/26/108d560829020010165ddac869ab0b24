@@ -1,0 +1,45 @@
+package multipleWindows;
+
+import java.util.Set;
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class MultipleTabsHandling {
+	
+	@Test
+	public void testCase1() throws InterruptedException{
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://www.irctc.co.in/nget/train-search"); //to Navigate to URL
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.xpath("//a[text()=' FLIGHTS ']")).click();  // Flights
+		Thread.sleep(10000);
+		
+//		String tab1Title = driver.getTitle();
+//		System.out.println("Tab 1 Title: "+tab1Title);
+//		String firstTabId = driver.getWindowHandle(); // it returns the ID of the Current tab
+//		System.out.println("First Tab ID: "+firstTabId);
+//		Set <String> multipleTabs = driver.getWindowHandles(); 
+//		// it returns the set of strings which contains ID of all open tabs
+//		
+//		for (String tab : multipleTabs) {
+//			if(!firstTabId.equals(tab)) {  // first tab id is npt equal to Tab
+//				System.out.println("Second Tab");
+//				driver.switchTo().window(tab); 
+//			}
+//		}
+//		
+//		String tab2Title = driver.getTitle();
+//		System.out.println("Tab 2 Title: "+tab2Title);
+//		
+		driver.findElement(By.xpath("//input[@name='defenceForce']")).click(); // Defence
+		driver.close();
+
+		driver.switchTo().window(firstTabId);  // moving our control to the first tab
+		driver.findElement(By.xpath("//a[text()=' REGISTER ']")).click(); 
+	}
+
+}
+
+

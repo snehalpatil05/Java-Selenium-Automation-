@@ -1,0 +1,68 @@
+package com.orangeHr.qa.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.orangeHr.qa.utils.WebUtils;
+
+public class LoginPage {
+	
+	WebDriver driver;
+	WebUtils webUtils;
+
+// 	create a constructor
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+		webUtils = new WebUtils(driver);
+		
+		// this automatically initialize the elements which are in the Login Page.
+	}
+	
+//	Syntax to Store the xpath in the WebElement - Creating WebElement
+	@FindBy(xpath="//input[@name='username']")
+	WebElement username;  
+	//WebElement Variable is attached to Locator which passed in Xpath
+	
+	@FindBy(xpath="//input[@name='password']")
+	WebElement password;  
+	
+	@FindBy(xpath="//button[@type='submit']")
+	WebElement login;  
+	
+	@FindBy(xpath="//p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+	WebElement invalidCredentialMsg; 
+	
+// Actions - creating a method for the WebElements
+	public void enterUsername(String uname) {
+//		username.sendKeys(uname);
+		webUtils.enterText(username, uname);
+	}
+	
+	public void enterPassword(String pwd) {
+//		password.sendKeys(pwd);
+		webUtils.enterText(password, pwd);
+	}
+	
+	public void clickOnLoginButton() {
+//		login.click();
+		webUtils.clcikOnElement(login);
+	}
+	
+	public void loginIntoOrangeHr(String uname, String pwd) {
+		enterUsername(uname);
+		enterPassword(pwd);
+		clickOnLoginButton();
+	}
+	
+	public String getInvalidCredentialMsg() {
+		String actualValue = invalidCredentialMsg.getText();
+		return actualValue;
+				
+	}
+	
+	
+
+}

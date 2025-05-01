@@ -1,0 +1,42 @@
+package oopsConcepts.inheritance.Example;
+
+public class CarExampleTestClass {
+
+	public static void main(String[] args) {
+//		Car carObj = new Car();
+//		carObj.speed();
+//		carObj.engine();
+//		carObj.color();
+//
+//		System.out.println("-------------------------------------------");
+//		
+//		BMW bmwObj = new BMW();
+//		bmwObj.ventilatedSeats();  // BMW
+//		bmwObj.music(); // BMW
+//		bmwObj.speed(); // Car
+//		bmwObj.engine(); // Car
+//		bmwObj.color();  // Overridden method // considering the own BMW class
+//		
+//		System.out.println("-------------------------------------------");
+//		
+//		BMWq7 bmwq7Obj = new BMWq7();
+//		bmwq7Obj.engine(); //BMWq7  // Overridden method // considering the own BMWq7 class
+//		bmwq7Obj.color(); //BMW
+//		bmwq7Obj.ventilatedSeats();  //BMW
+//		bmwq7Obj.music(); //BMW
+//		bmwq7Obj.speed();  // Car
+		
+		
+		
+		Car obj1 = new BMW();
+		
+// Creating the object of the BMW class and assigning it in the reference variable carObj or the Car class.
+// we can keep any child object in the reference variable of the parent class.
+		obj1.color();  // Car - Parent class
+		obj1.speed();  // Car - Parent class
+		obj1.engine(); // Car - Parent class
+//		obj1.ventilatedSeats() // Can not access
+//		obj1.music(); // Can not access
+	}
+
+}

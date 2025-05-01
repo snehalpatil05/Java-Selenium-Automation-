@@ -1,0 +1,29 @@
+package practiceAssignments;
+
+public class MethodsVarObj {
+	
+	String watch = "tv in the hall and accessible by family and guests";
+	
+	public void watch1(){
+		String var = "Tv in the bedroom is private for the family";
+		System.out.println(var);
+	}
+	
+	public void study() {
+		int books = 2;
+		System.out.println("a person from the family can read the "+books+ " books in the study room");
+	}
+
+	public static void main(String[] args) {
+		
+		MethodsVarObj obj = new MethodsVarObj();
+		System.out.println(obj.watch);
+		obj.watch1();
+		obj.study();
+		
+		
+		
+		
+	}
+
+}

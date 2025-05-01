@@ -1,0 +1,23 @@
+package myCollection;
+
+import java.util.ArrayList;
+
+public class MyArrayList {
+	
+	public static void main(String[] args) {
+		
+		String[] var = {"a", "b"}; //size is fixed
+		var[2] = "test";
+		
+		ArrayList<String> myList = new ArrayList<String>();
+		myList.add("Snehal");
+		myList.add("Sourabh");
+		myList.add("Surekha");
+		
+		for (String name : myList) {
+			System.out.println("Value is: "+name);
+			
+		}
+	}
+
+}

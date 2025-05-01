@@ -1,0 +1,15 @@
+package com.orangeHr.qa.testcases;
+
+import org.testng.annotations.Test;
+
+public class DemoTest {
+	
+	@Test
+	public void testCase1() {
+		System.out.println("Maven Test");
+	}
+	
+	public void testCase2() {
+		System.out.println("Maven Test2 from DemoTest class");
+	}
+}

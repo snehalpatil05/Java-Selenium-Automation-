@@ -1,0 +1,20 @@
+package assignments;
+
+public class ArrayAssignment1 {
+
+	public static void main(String[] args) {
+		// Write a Java program that checks whether a puja exists in an array of names {"rajan", "puja", "hema", "prakhar", "prachi"}
+
+		String[] names = {"rajan", "puja", "hema", "prakhar", "prachi"};
+		for (String value : names) {
+			if(names.equals("Puja")) {
+				System.out.println("Puja exists in an array");
+			}
+		}
+//		System.out.println("Puja doesn't exists in the list");
+
+	}
+
+
+}
+

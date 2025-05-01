@@ -1,0 +1,21 @@
+package multipleWindows;
+
+import java.util.Set;
+
+import org.openqa.selenium.WebDriver;
+
+public class TabHandlerCode {
+	
+	public static String switchToNewTab(WebDriver driver) {
+        String firstTabId = driver.getWindowHandle(); 			// it returns the ID of the Current tab
+        Set <String> multipleTabs = driver.getWindowHandles(); 	// Get all window handles
+
+        for (String tab : multipleTabs) {
+            if (!firstTabId.equals(tab)) {  					// Switch to new tab
+                driver.switchTo().window(tab);
+            }
+        }
+        return firstTabId; 										// Return the original tab ID for reference
+    }
+
+}

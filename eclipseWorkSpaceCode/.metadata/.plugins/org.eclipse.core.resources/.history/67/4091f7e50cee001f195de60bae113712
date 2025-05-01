@@ -1,0 +1,21 @@
+package oopsConcepts.inheritance.Example;
+
+public class CarExampleTestClass {
+
+	public static void main(String[] args) {
+		Car carObj = new Car();
+		carObj.speed();
+		carObj.engine();
+		carObj.color();
+		
+		
+		BMW bmwObj = new BMW();
+		bmwObj.ventilatedSeats();  // BMW
+		bmwObj.music(); // BMW
+		bmwObj.speed(); // Car
+		bmwObj.engine(); // Car
+		bmwObj.color();  // Overridden method // considering the own class
+
+	}
+
+}
