@@ -1,0 +1,130 @@
+//html/body/section/div/div/div[@class='col-sm-6 col-md-6 col-xs-12']/form//input[@placeholder='First Name']
+
+//form//input[@placeholder='First Name']
+
+//input[@placeholder='First Name']
+
+//input[@ng-model='FirstName']
+
+
+Email Address:
+
+//input[@type='email']
+
+
+Practice Site ->>
+//a[text()='Practice Site']
+
+
+Advance Xpaths:
+
+
+//div[label[text()='Password']]//following-sibling::div/input
+
+//div[label[text()='Confirm Password']]//following-sibling::div/input[@class='oxd-input oxd-input--active']
+
+
+
+Advance Xpath in Reverse order ->>
+//div[input[@type='password']]//preceding-sibling::div/label[text()='Password']
+
+//div[div[@class='oxd-select-text-input']]//preceding-sibling::div/label[text()='User Role']
+===============================================================================================================================
+
+
+First Name: //input[@placeholder='First Name']
+
+Last Name: //input[@placeholder='Last Name']
+
+Address : //textarea[@ng-model='Adress']
+
+Email Address: //input[@type='email']
+		//input[@ng-model='EmailAdress']
+
+Phone: //input[@type='tel']
+	//input[@ng-model='Phone']
+
+Gender: //input[@type='radio']
+
+	Male => //input[@value='Male']
+
+	Female => //input[@value='FeMale']
+
+Hobbies: 
+
+	Cricket => //input[@id='checkbox1']
+	Movies => //input[@id='checkbox2']
+	Hockey => //input[@id='checkbox3']
+
+Languages : //div[@id='msdd']
+
+Skills : //select[@id='Skills']
+	//select[@ng-model='Skill']
+
+
+Country : //select[@id='countries']
+	//select[@ng-model='country']
+
+Select Country : //span[@role='combobox']
+		//span[@aria-haspopup='true']
+		//span[@aria-expanded='false']
+		//span[@tabindex='-1']
+		//span[@aria-labelledby='select2-country-container']
+
+Date Of Birth :
+	Year => //select[@placeholder='Year']
+		//select[@id='yearbox']
+		//select[@ng-model='yearbox']
+		
+	Month =>//select[@placeholder='Month']
+		//select[@id='monthbox']
+		//select[@ng-model='monthbox']
+
+	Date => //select[@placeholder='Day']
+		//select[@id='daybox']
+		//select[@ng-model='daybox']
+
+
+Password : //input[@id='firstpassword']
+	//input[@ng-model='Password']
+
+Confirm Password: //input[@id='secondpassword']
+		//input[@ng-model='CPassword']
+
+Submit Button : //button[@id='submitbtn']
+		//button[@type='submit']
+		//button[@name='signup']
+		//button[@value='sign up']
+
+Refresh Button : //button[@id='Button1']
+		//button[@type='button']
+		//button[@value='Refresh']
+
+
+Choose File : //input[@id='imagesrc']
+		//input[@type='file']
+
+Photo : //img[@id='imagetrgt']
+
+
+
+===============================================================================================================================
+Following & Preceding Sibling Xpaths Assignment:
+https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+
+User Role :
+//div[label[text()='User Role']]//following-sibling::div/div/div/div[@class='oxd-select-text-input']
+//div[label[text()='User Role']]//following-sibling::div//div[@class='oxd-select-text-input']
+
+Status:
+//div[label[text()='Status']]//following-sibling::div/div/div/div[@class='oxd-select-text-input']
+//div[label[text()='Status']]//following-sibling::div//div[@class='oxd-select-text-input']
+ 		
+Employee Name:
+//div[label[text()='Employee Name']]//following-sibling::div//div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']
+
+User Name:
+//div[label[text()='Username']]//following-sibling::div/input[@class='oxd-input oxd-input--active']
+
+
+

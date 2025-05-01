@@ -1,0 +1,44 @@
+Join Zoom Meeting
+
+https://us06web.zoom.us/j/82155644347?pwd=Ea2C2Mym6VObsCm1UWrR6dWlGtQcXa.1
+
+Or 
+
+Meeting ID: 821 5564 4347
+Passcode: 129339
+
+===========================================================================================
+
+Download Java - https://www.oracle.com/in/java/technologies/downloads/
+
+https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe (sha256)
+
+Download Eclipse:
+https://www.eclipse.org/downloads/
+
+
+===========================================================================================
+Demo Site:
+
+https://demo.automationtesting.in/Register.html
+https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+
+
+===========================================================================================
+
+Seeking career advancement to leverage my expertise as a software Quality Assurance Engineer role to a team that values innovation while continuing to learn and grow professionally.
+
+
+About:
+
+Experienced Quality Analyst with a demonstrated history of working in the E-commerce industry. Strong quality assurance professional skilled in manual and automation testing
+
+
+Project:
+
+Worked as senior QA member Reviewing test cases
+Assigning Work to team members Attending Requirement discussion
+Involving in End to End, functional Testing,backend Testing Providing sign-off for Go-live for multiple tenants
+Giving training to newly joined freshers
+Converting manual test cases to automation test cases (increased the pass percentage from 60% to 90%) Increased the test coverage by adding 100 more test cases.
+Code Maintainability and updating the automation script on new changes. API automation using JEST framework

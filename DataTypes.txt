@@ -1,0 +1,13 @@
+1 byte = 8 bits ==> -128 to 127
+(2n-1 – 1) to (2n-1 – 1)
+-128 to 127
+
+
+int 4byte - 32 bits ->
+Float 4byte
+Double 8byte
+Boolean 1bit --> -128  to 127
+char 2byte --> 
+byte 1byte
+long 8byte
+short 2byte --> -32768 to 32767

@@ -1,0 +1,10 @@
+NoSuchElementException:  whenever element is not present / missing on UI, that time this exception is thrown /
+			Selenium is unable to locate the element.
+
+ElementNotInteractable : provided Xpath is not clickable
+
+ArrayIndexOutOfBoundsException() :
+
+IOException(): Checked Exception, compile time exception
+
+TimeOutException -> When there is no element found in the execution time duration.

@@ -1,0 +1,76 @@
+1. Create Project /Package /Class
+
+---------------------------------------------------------------------------------
+2. Create a new Java file in Notepad
+Copy paste in Notepad and
+Update code with some other message
+Try executing 
+
+--------------------------------------------------------------------------------
+
+3. (Assignment for 30th Jan 2025)
+1. Create a Different project with multiple class file 
+2. Practice how to declare variable for different datatypes  and print the variable 
+3. Practice how to create methods ( public & private) and print the variable, also access all variable & methods with creating an object.
+4. Practice how to call one class with another class with creating an object
+
+--------------------------------------------------------------------------------
+4. Assignment  (Assignment for 31 Jan 2025)
+1. Write a program if the score is greater than or equal to 40, print "You Passed!" Otherwise print "you failed"
+2. Write a program for If statement, if the number is greater than zero, print "The number is positive"
+
+--------------------------------------------------------------------------------
+
+5. Assignment  (Assignment for 2nd Feb 2025)
+
+1. Write a Java program to print odd numbers from 1 to 20 using a for loop.
+2. Write a Java program to print the multiplication table of 5 using a for loop
+3. Star Pattern
+
+
+--------------------------------------------------------------------------------
+
+6.few real time examples where all we can apply If-else / For / Switch statements - Taken an example of Myntra App
+
+--------------------------------------------------------------------------------
+
+7. Create 3 more methods - subtraction, multiplication and division and print the results.
+
+-----------------------------------------------------------------------------
+8.Assignments on Arrays
+
+Write a Java program that checks whether a puja exists in an array of names {"rajan", "puja", "hema", "prakhar", "prachi"}
+
+Write a Java program that checks whether a given number exists in an array {10, 25, 30, 45, 50}.
+
+Write a Java program to count how many times a 2 appears in an array{1, 2, 3, 2, 4, 2, 5} 
+
+Write a Java program to find the index of a grapes in an array  Array: {"apple", "banana", "cherry", "grapes", "orange"} If the element is not found, return -1.
+
+Write a Java program to reverse the elements of an array {10, 20, 30, 40, 50} - output should be 50, 40, 30, 20, 10
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Session assignment:
+
+in packageA -> create 3 classes:
+Class1 > create a public variable int I=10;
+Class2 > create a public variable int I=20;
+ClassTest > create obj1 of class1 & obj2 of class2 & access I values.
+
+
+
+In PackageB -->
+Class1 --> Public int i = 30;
+
+In packageC -->
+ClassTest ---> print all 3 i's output => 10, 20, 30
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Automation Testing
+
+1. List out all the possible events on a webpage
+
+
+
